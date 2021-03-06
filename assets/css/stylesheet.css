@@ -1,0 +1,277 @@
+/* Configurações Gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 16px;
+    text-align: justify;
+    line-height: 26px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Configurações da Header e Menu */
+
+header {
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header {
+    max-width: 1140px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+}
+
+.logoimg {
+    font-size: 80px;
+    color: #b28756;
+}
+
+.menu {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu ul,
+.menu li {
+    list-style: none;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu li a {
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+    height: 100px;
+    border-bottom: 5px solid #000;
+}
+
+.menu li a:hover, 
+.menu .active a {
+    border-bottom: 5px solid #b28756;
+    color: #b28756;
+}
+
+/* Banner */
+
+.banner {
+    height: calc(100vh - 100px);
+    background-color: #333;
+    background-image: url('../images/imgs/bg.jpg');
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+}
+
+.banner .sliders {
+    width: 1000vw;
+    height: 100%;
+
+}
+
+.banner .slide {
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.banner
+.slidearea {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.banner h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.banner
+h1 span {
+    color: #b28756;
+}
+
+.banner h2 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 30px;
+    
+}
+
+.slidebtn {
+    margin-top: 25px;
+    background-color: #b28756;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px 30px 20px 30px;
+    border: 2px solid #b28756;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.slidebtn:hover {
+    background-color: transparent;
+    border: 2px solid #b28756;
+
+
+}
+
+.banner
+.sliders_pointers {
+    width: 100vw;
+    height: 20px;
+    position: absolute;
+    margin-top: -250px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.banner
+.pointer {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #b28756;
+    border-radius: 8px;
+    margin: 0px 5px 0px 5px;
+    cursor: pointer;
+}
+
+.banner
+.pointer.active {
+    background-color:#b28756;
+}
+
+/* Corpo do Site */
+
+.default {
+    padding: 50px 0px 50px 0px;
+}
+
+.default .section_title,
+.default .section_desc {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.default .section_title {
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+
+.default .section_desc h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6c757d;
+    margin: 15px 0px 30px 0px;
+
+}
+
+.default .section_body {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.default.light {
+    background-color: #e9ecef;
+}
+
+.default.light .section_title h2,
+.default.light .section_body {
+    color: #000;
+}
+
+.default.dark {
+    background-color: #000;
+}
+
+.default.dark .section_title h2 {
+    color: #fff;
+}
+
+/* Corpo do Site: Área About Us */
+
+.section_aboutus {
+    display: flex;
+
+}
+
+.section_aboutus_left {
+    flex: 1;
+}
+
+.section_aboutus_right {
+    width: 500px;
+    text-align: center;
+}
+
+video {
+    
+    box-shadow: 0px 5px 10px #333;
+}
+
+.gbtn {
+    margin-top: 20px;
+    background-color: #b28756;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px 15px 10px 15px;
+    border: 2px solid #b28756;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.gbtn:hover {
+    background-color: transparent;
+    border: 2px solid #b28756;
+    color: #b28756;
+
+
+}
+
+
+
+
+
